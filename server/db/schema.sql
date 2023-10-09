@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS echonos_db;
+CREATE DATABASE echonos_db;
