@@ -5,3 +5,5 @@ const Mfg = require('./Mfg');
 const Part = require('./Part');
 const ControlNumber = require('./ControlNumber');
 const User = require('./User');
+
+module.exports = {Commodity, Container, ContainerContents, Mfg, Part, ControlNumber, User};
