@@ -61,3 +61,5 @@ Part.init(
         tableName: 'parts'
     }
 )
+
+module.exports = Part;

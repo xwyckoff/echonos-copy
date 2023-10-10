@@ -20,3 +20,5 @@ Container.init(
         modelName: 'container'
     }
 )
+
+module.exports = Container;

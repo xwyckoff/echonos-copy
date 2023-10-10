@@ -28,3 +28,5 @@ Mfg.init(
         modelName: 'mfg'
     }
 )
+
+module.exports = Mfg;

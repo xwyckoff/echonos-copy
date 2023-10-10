@@ -25,3 +25,5 @@ Commodity.init(
         modelName: 'commodity'
     }
 )
+
+module.exports = Commodity;

@@ -25,3 +25,5 @@ ControlNumber.init(
         modelName: 'controlNumbers'
     }
 )
+
+module.exports = ControlNumber;

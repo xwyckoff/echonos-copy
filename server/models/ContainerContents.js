@@ -22,3 +22,5 @@ ContainerContents.init(
         modelName: 'containerContents'
     }
 )
+
+module.exports = ContainerContents;
