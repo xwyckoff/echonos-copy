@@ -47,6 +47,10 @@ Part.init(
         },
         createdBy: {
             type: DataTypes.INTEGER
+        },
+        controlNumber: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
     },
     {
