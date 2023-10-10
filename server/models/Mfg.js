@@ -1,9 +1,9 @@
-const { Model, DataTypes} = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Commodity extends Model {}
+class Mfg extends Model {};
 
-Commodity.init(
+Mfg.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -11,10 +11,13 @@ Commodity.init(
             primaryKey: true,
             autoIncrement: true
         },
-        commodityName: {
-            type: DataTypes.STRING,
+        mfgName: {
+            type: DataTypes.INTEGER,
             allowNull: false,
-            unique: true
+        },
+        commodityID: {
+            type: DataTypes.INTEGER,
+            allowNull: false
         }
     },
     {
@@ -22,6 +25,6 @@ Commodity.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'commodity'
+        modelName: 'mfg'
     }
 )
