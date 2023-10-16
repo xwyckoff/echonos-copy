@@ -26,4 +26,12 @@ router.post('/', async(req, res) => {
     } catch (err) {
         res.status(400).json(err);
     }
+});
+
+router.post('/login', async (req, res) => {
+    try {
+
+    } catch (err) {
+        
+    }
 })
